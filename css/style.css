@@ -1,0 +1,16 @@
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#output{
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 20px;
+
+}
+ul {
+    list-style: none;
+}

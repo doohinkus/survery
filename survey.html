@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>Very Important Survey!</h1>
+        <form id="survey">
+        <div class="col-md-6">
+          <label for="name">Enter name:</label>
+          <input type="text" id="name">
+
+          <label for="hometown">Enter hometown:</label>
+          <input id="hometown" type="text">
+          <h4>Select your favorite food:</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="meat">
+              Meat
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="dairy">
+              Dairy
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="fish">
+              Fish
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="Vegetables">
+              Vegetables
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="chicken">
+              Chicken
+            </label>
+          </div>
+          <h4>Select your favorite ice cream flavor:</h4>
+          <select class="form-control" id="flavor">
+  <option>Vanilla</option>
+  <option>Chocolate</option>
+  <option>Green tea</option>
+  <option>Daquiri Ice</option>
+  <option>Chocolate Chip Cookie Dough</option>
+  <option>Pistachio</option>
+</select>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+  <label for="color">What is your favorite color?</label>
+  <input id="color" class="form-control" type="color">
+</div>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="output">
+            <ul>
+              <li class="name">Your name is: </li>
+              <li class="hometown">Your hometown is: </li>
+              <li class="food">Your favorite food is: </li>
+              <li class="flavor">Your favorite ice cream flavor is: </li>
+              <li class="date">Your birthday is: </li>
+              <li class="color">Your favorite color is the background, silly!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
