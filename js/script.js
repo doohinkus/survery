@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+ $("#output").hide();
  $('form#survey').submit(function(event){
    var name = $("input#name").val();
    var hometown = $("input#hometown").val();
@@ -17,7 +17,7 @@ $("li.hometown").append(hometown);
 $("li.food").append(food);
 $("li.flavor").append(flavor);
 $("li.date").append(dob);
-$("#output").css("background-color", favoriteColor);
+$("#output").css("background-color", favoriteColor).show();
 
    //$("#output").text(result).css("background-color", favoriteColor);
  });
